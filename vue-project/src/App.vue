@@ -1,20 +1,11 @@
 <template>
   <div class="app-container">
     <h1>Personal Info</h1>
-    <personal-profile/>
+    <personal-info/>
   </div>
 </template>
 
-<script>
-import PersonalProfile from './components/PersonalProfile.vue'
-
-export default {
-  name: 'App',
-  components: {
-    PersonalProfile
-  }
-}
-</script>
+<script></script>
 
 <style>
 .app-container {
