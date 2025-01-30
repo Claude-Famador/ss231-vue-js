@@ -47,14 +47,6 @@
         <h2 class="subtitle">Goals In Life / Dream</h2>
         <p>Build a solid reputation within the CS World and manage to implement my hobbies and interests into this to build a passion project.</p>
       </section>
-  
-      <section class="section">
-        <h2 class="subtitle">Picture Gallery</h2>
-        <div class="gallery">
-          <img src="htmlimg1.jpg" alt="Images of me and my groupmates in our research group with one of our consultants">
-          <img src="htmlimg2.jpg" alt="After the Defense">
-        </div>
-      </section>
     </div>
   </template>
   
@@ -107,19 +99,5 @@
   
   .course-table th {
     background-color: #f5f5f5;
-  }
-  
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 15px;
-  }
-  
-  .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   </style>
