@@ -5,7 +5,16 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import PersonalProfile from './components/PersonalProfile.vue'
+
+export default {
+  name: 'App',
+  components: {
+    PersonalProfile
+  }
+}
+</script>
 
 <style>
 .app-container {
