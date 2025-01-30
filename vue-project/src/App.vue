@@ -1,18 +1,20 @@
 <template>
-  <h1>Food</h1>
-  <food-item/> <br>
-  <food-item2/> <br>
-  <food-item/> <br>
-  <food-item2/> <br>
-  <food-item/> <br>
-  <food-item2/> <br>
-
-  <h2> Personal Info </h2>
-  <personal-info/>
+  <div class="app-container">
+    <h1>Personal Info</h1>
+    <personal-profile/>
+  </div>
 </template>
 
 <script></script>
 
 <style>
+.app-container {
+  padding: 20px;
+}
 
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
 </style>
