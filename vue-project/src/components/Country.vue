@@ -1,7 +1,7 @@
 <template>
-    <h1>Comments</h1>
+    <h1>Countries</h1>
     <ul>
-      <li v-for="comment in comments" :key="comment.id">{{ comment.name }} {{ comment.comment }}</li>
+      <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
     </ul>
   </template>
   
@@ -21,15 +21,15 @@
 import { ref, onMounted } from 'vue'
 import { supabase } from '../lib/supabaseClient'
 
-const comments = ref([])
+const countries = ref([])
 
-async function getComments() {
-  const { data } = await supabase.from('comments').select()
-  comments.value = data
+async function getCountries() {
+  const { data } = await supabase.from('countries').select()
+  countries.value = data
 }
 
 onMounted(() => {
-  getComments()
+  getCountries()
 })
 
 </script>
