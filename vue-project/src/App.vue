@@ -2,6 +2,7 @@
   <div class="app-container">
     <h1>Personal Info</h1>
     <personal-info/>
+    <comment-form>
   </div>
 
   <ul>
